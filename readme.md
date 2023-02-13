@@ -9,3 +9,8 @@ outcome: do dishes, make bed, wash car
 test: write a function to number the tasks
 code: taskList;
 outcome: ["wash car", task 1]
+
+test: write a function that will test if a task is complete
+code: taskDone = true;
+outcome: ["wash car", task 1] (crossed out)
+

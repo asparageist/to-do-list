@@ -1,11 +1,16 @@
 function TaskList() {
   this.tasks = {};
   this.taskNumber = 0;
+  this.taskDone = false;
 }
 
 TaskList.prototype.assignNumber = function() {
   this.taskNumber += 1;
   return this.taskNumber;
+}
+
+TaskList.prototype.assignBool = function() {
+  this.taskDone = true;
 }
 
 TaskList.prototype.addTask = function(task) {
